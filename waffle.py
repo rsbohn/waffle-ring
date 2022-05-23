@@ -13,9 +13,10 @@ Experimental UART ring network for microcontrollers.
 
 Wiring:
 =======
-[node-a]  [node-b]      [node-c]
-TX -----> RX  TX -----> RX
-RX <------------------- TX
+[node-a]  [node-b]   [node-c]
+TX -----> RX  TX --> RX
+RX <---------------- TX
+GND ----- GND ------ GND
 
 Frame Format:
 FC[MM][AAAAAA][NNNN][CCCCCCCC]<payload>FC
