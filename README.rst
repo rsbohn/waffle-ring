@@ -1,8 +1,10 @@
-# waffle-ring
+waffle-ring
+===========
 
 A UART ring network for microcontrollers
 
-## Why build a waffle-ring?
+Why build a waffle-ring?
+------------------------
 
 - You need more processing power
 
@@ -16,7 +18,8 @@ Spread your application to multiple 'threads'.
 
 It might be fun.
 
-## Reference Implementation
+Reference Implementation
+----
 
 ### Phase 0
 
